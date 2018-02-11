@@ -1,0 +1,5 @@
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_ssse3_intrinsics.build/Objects-normal/x86_64/aom_highbd_convolve_hip_ssse3.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_ssse3_intrinsics.build/Objects-normal/x86_64/aom_subpixel_8t_intrin_ssse3.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_ssse3_intrinsics.build/Objects-normal/x86_64/highbd_intrapred_ssse3.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_ssse3_intrinsics.build/Objects-normal/x86_64/intrapred_ssse3.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_ssse3_intrinsics.build/Objects-normal/x86_64/inv_txfm_ssse3.o

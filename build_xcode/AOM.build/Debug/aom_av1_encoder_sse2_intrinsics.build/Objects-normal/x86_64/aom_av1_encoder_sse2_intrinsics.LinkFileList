@@ -1,0 +1,6 @@
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_av1_encoder_sse2_intrinsics.build/Objects-normal/x86_64/av1_fwd_txfm_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_av1_encoder_sse2_intrinsics.build/Objects-normal/x86_64/av1_quantize_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_av1_encoder_sse2_intrinsics.build/Objects-normal/x86_64/dct_intrin_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_av1_encoder_sse2_intrinsics.build/Objects-normal/x86_64/encodetxb_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_av1_encoder_sse2_intrinsics.build/Objects-normal/x86_64/highbd_block_error_intrin_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_av1_encoder_sse2_intrinsics.build/Objects-normal/x86_64/wedge_utils_sse2.o

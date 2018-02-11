@@ -1,0 +1,7 @@
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_sse2_intrinsics.build/Objects-normal/x86_64/aom_asm_stubs.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_sse2_intrinsics.build/Objects-normal/x86_64/aom_convolve_hip_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_sse2_intrinsics.build/Objects-normal/x86_64/highbd_intrapred_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_sse2_intrinsics.build/Objects-normal/x86_64/highbd_loopfilter_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_sse2_intrinsics.build/Objects-normal/x86_64/intrapred_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_sse2_intrinsics.build/Objects-normal/x86_64/inv_txfm_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_sse2_intrinsics.build/Objects-normal/x86_64/loopfilter_sse2.o

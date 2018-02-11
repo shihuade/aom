@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		273121991CBD4513A717FBCD /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A8D4BB076A98428F941D19FB /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				C57743A2F58347F4B2341A51 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7F8FA30B3FDF481FBA17C6A4 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3C736CD6D58A48F1B5316C05 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 864F5ABF2E7D45479DA30F4D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A871D9127F924BB9A2443D0D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		D074C089125D4B4BBA9D2BCA /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C97AB10F32704AA9A7695F29 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				F5710AC59E974007982EB53F /* CMake Rules */,
+			);
+			dependencies = (
+				BAE486967BB743E7862F56A9 /* PBXTargetDependency */,
+				28BFFD6AD6EE4152BBC2088B /* PBXTargetDependency */,
+				8D3B9F565EB447F3BA04A44A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		32B199F2FD3444909E757E30 /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EB36C848706B444FA3D69ADC /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/CMakeLists.txt */; };
+		339254F6B69F4E82B84E285F /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = B423DBA798884AA1BC37E20D /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src/gtest_main.cc */; };
+		65132CBB10A549558FFF351E /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B0CE846D12314FC0A7489349 /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/CMakeLists.txt */; };
+		C8AAA506F7A043C391584A20 /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = 5A06360203DB4A11A1251B21 /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src/gtest-all.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1695E0DF58654B19A7732DB2 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		536D3BE832574EFB8BE0BF8D /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		64C77E9869B14ED89AA583E6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		ED32191CA5364A76802C0D8B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0C5DAA524D2D4F17B25CAD97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD64F472693E4FB385B2B11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C45255E0BD4D289FF6C569;
+			remoteInfo = gtest;
+		};
+		0ED13C30D0EA4D7A87CCEB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD64F472693E4FB385B2B11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C736CD6D58A48F1B5316C05;
+			remoteInfo = ZERO_CHECK;
+		};
+		43B12F8DD7FE4C3CAA141DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD64F472693E4FB385B2B11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C736CD6D58A48F1B5316C05;
+			remoteInfo = ZERO_CHECK;
+		};
+		50B8777EA2EC42E39A7C6985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD64F472693E4FB385B2B11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C736CD6D58A48F1B5316C05;
+			remoteInfo = ZERO_CHECK;
+		};
+		B01F506597AA4CED8BE60F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD64F472693E4FB385B2B11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD82DEE87B944FF3A53A1D53;
+			remoteInfo = gtest_main;
+		};
+		B9D8DA4E5F5748EE9855D11A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD64F472693E4FB385B2B11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D074C089125D4B4BBA9D2BCA;
+			remoteInfo = ALL_BUILD;
+		};
+		BD93974460F940538EC117F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD64F472693E4FB385B2B11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C45255E0BD4D289FF6C569;
+			remoteInfo = gtest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10217E8359CB48DDAD619C4E /* gtest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A06360203DB4A11A1251B21 /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+		85562BF6D3C349F3B57E6E00 /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		916677BFA9EE405FAFD5FAEF /* gtest_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest_main.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CE846D12314FC0A7489349 /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B423DBA798884AA1BC37E20D /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gtest_main.cc; path = src/gtest_main.cc; sourceTree = SOURCE_ROOT; };
+		BD71258D29874B469B0DD02C /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EB36C848706B444FA3D69ADC /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0C6CAF17058C4B6EA23BC0F5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA070D052F417D801F3E95 /* CMake Rules */,
+				BD71258D29874B469B0DD02C /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		0FE41BEE62E245ACA9832E25 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3340AA1A04B646028FA75D91 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				0FE41BEE62E245ACA9832E25 /* CMake Rules */,
+				85562BF6D3C349F3B57E6E00 /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		3DBC58062F6C4A33AC3A9354 = {
+			isa = PBXGroup;
+			children = (
+				7F2EED9D56B74CBEB992C5BF /* gtest_main */,
+				3F51917CFC9D44E39DD157B7 /* gtest */,
+				0C6CAF17058C4B6EA23BC0F5 /* ALL_BUILD */,
+				3340AA1A04B646028FA75D91 /* ZERO_CHECK */,
+				595B67BBAD204811B687C89A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EDA070D052F417D801F3E95 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3F51917CFC9D44E39DD157B7 /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				F701C3F985D541BC92DC2360 /* Source Files */,
+				B0CE846D12314FC0A7489349 /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/CMakeLists.txt */,
+			);
+			name = gtest;
+			sourceTree = "<group>";
+		};
+		595B67BBAD204811B687C89A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10217E8359CB48DDAD619C4E /* gtest */,
+				916677BFA9EE405FAFD5FAEF /* gtest_main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CDA33BD90CD442C806DADE5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B423DBA798884AA1BC37E20D /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src/gtest_main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7F2EED9D56B74CBEB992C5BF /* gtest_main */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA33BD90CD442C806DADE5 /* Source Files */,
+				EB36C848706B444FA3D69ADC /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/CMakeLists.txt */,
+			);
+			name = gtest_main;
+			sourceTree = "<group>";
+		};
+		F701C3F985D541BC92DC2360 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A06360203DB4A11A1251B21 /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src/gtest-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40C45255E0BD4D289FF6C569 /* gtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3C183D70DD46CFBDD3CBC1 /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildPhases = (
+				229037D849B548C38A6D4031 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F439913FDCB947C7A7043C20 /* PBXTargetDependency */,
+			);
+			name = gtest;
+			productName = gtest;
+			productReference = 10217E8359CB48DDAD619C4E /* gtest */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AD82DEE87B944FF3A53A1D53 /* gtest_main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B777779C1ED4D9BB55AA91E /* Build configuration list for PBXNativeTarget "gtest_main" */;
+			buildPhases = (
+				9C5C149186F944899C6D7A01 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FE179949A7E46D6BB7D1A1E /* PBXTargetDependency */,
+				8535FA6317BE426AA474F136 /* PBXTargetDependency */,
+			);
+			name = gtest_main;
+			productName = gtest_main;
+			productReference = 916677BFA9EE405FAFD5FAEF /* gtest_main */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD64F472693E4FB385B2B11F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = CE772F90239C4C90BFB0A777 /* Build configuration list for PBXProject "gtest" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				ED32191CA5364A76802C0D8B /* Debug */,
+				1695E0DF58654B19A7732DB2 /* Release */,
+				536D3BE832574EFB8BE0BF8D /* MinSizeRel */,
+				64C77E9869B14ED89AA583E6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3DBC58062F6C4A33AC3A9354;
+			projectDirPath = ../../../../../third_party/googletest/src/googletest;
+			projectRoot = "";
+			targets = (
+				D074C089125D4B4BBA9D2BCA /* ALL_BUILD */,
+				3C736CD6D58A48F1B5316C05 /* ZERO_CHECK */,
+				40C45255E0BD4D289FF6C569 /* gtest */,
+				AD82DEE87B944FF3A53A1D53 /* gtest_main */,
+				273121991CBD4513A717FBCD /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E6C37D733B74086897BB1CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9F620B3E12854E8EB17BD50F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A871D9127F924BB9A2443D0D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest -f /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C57743A2F58347F4B2341A51 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest -f /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D791E35292224A249E2431C2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F5710AC59E974007982EB53F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest -f /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229037D849B548C38A6D4031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AAA506F7A043C391584A20 /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src/gtest-all.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5C149186F944899C6D7A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339254F6B69F4E82B84E285F /* /Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src/gtest_main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28BFFD6AD6EE4152BBC2088B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD82DEE87B944FF3A53A1D53 /* gtest_main */;
+			targetProxy = B01F506597AA4CED8BE60F4E /* PBXContainerItemProxy */;
+		};
+		3FE179949A7E46D6BB7D1A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C736CD6D58A48F1B5316C05 /* ZERO_CHECK */;
+			targetProxy = 0ED13C30D0EA4D7A87CCEB85 /* PBXContainerItemProxy */;
+		};
+		7F8FA30B3FDF481FBA17C6A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D074C089125D4B4BBA9D2BCA /* ALL_BUILD */;
+			targetProxy = B9D8DA4E5F5748EE9855D11A /* PBXContainerItemProxy */;
+		};
+		8535FA6317BE426AA474F136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C45255E0BD4D289FF6C569 /* gtest */;
+			targetProxy = BD93974460F940538EC117F7 /* PBXContainerItemProxy */;
+		};
+		8D3B9F565EB447F3BA04A44A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C45255E0BD4D289FF6C569 /* gtest */;
+			targetProxy = 0C5DAA524D2D4F17B25CAD97 /* PBXContainerItemProxy */;
+		};
+		BAE486967BB743E7862F56A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C736CD6D58A48F1B5316C05 /* ZERO_CHECK */;
+			targetProxy = 50B8777EA2EC42E39A7C6985 /* PBXContainerItemProxy */;
+		};
+		F439913FDCB947C7A7043C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C736CD6D58A48F1B5316C05 /* ZERO_CHECK */;
+			targetProxy = 43B12F8DD7FE4C3CAA141DCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C26AB6A6AB848C795C0E8C0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		166A0ED50D4C4B63973824A9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		190B8348B1AE4146A42262B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		332CCC47D36A4D9FADEE3165 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wdisabled-optimization -Wextra -Wfloat-conversion -Wimplicit-function-declaration -Wpointer-arith -Wsign-compare -Wstring-conversion -Wtype-limits -Wuninitialized -Wunused -Wvla -Wno-unused-function -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3952FACDF0F14F899DAB9303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest/build;
+			};
+			name = Release;
+		};
+		3FBC935FC7534A0BAAA26B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wdisabled-optimization -Wextra -Wfloat-conversion -Wimplicit-function-declaration -Wpointer-arith -Wsign-compare -Wstring-conversion -Wtype-limits -Wuninitialized -Wunused -Wvla -Wno-unused-function -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		49068520975A4CED88B7BB62 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest/build;
+			};
+			name = RelWithDebInfo;
+		};
+		6B87D791EE6E4108A91D05D4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6CB76AA68A984DDD846EA8B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		85F224AC79FE47E3A3A1AD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest/build;
+			};
+			name = Debug;
+		};
+		91F35288C5314A01A97C80D2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wdisabled-optimization -Wextra -Wfloat-conversion -Wimplicit-function-declaration -Wpointer-arith -Wsign-compare -Wstring-conversion -Wtype-limits -Wuninitialized -Wunused -Wvla -Wno-unused-function -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		96447B665B4240E7A178B7DE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wdisabled-optimization -Wextra -Wfloat-conversion -Wimplicit-function-declaration -Wpointer-arith -Wsign-compare -Wstring-conversion -Wtype-limits -Wuninitialized -Wunused -Wvla -Wno-unused-function -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A144478811D5412FB54C517C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A25AC1DC0B394D5E80ED00B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AEE90797B77D464C97DBA468 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B2E2D0DFC4DE46208603C850 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest/build;
+			};
+			name = MinSizeRel;
+		};
+		B9F3A0371F8B4133B66D2E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wdisabled-optimization -Wextra -Wfloat-conversion -Wimplicit-function-declaration -Wpointer-arith -Wsign-compare -Wstring-conversion -Wtype-limits -Wuninitialized -Wunused -Wvla -Wno-unused-function -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BDF353A123CD423C99519DD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wdisabled-optimization -Wextra -Wfloat-conversion -Wimplicit-function-declaration -Wpointer-arith -Wsign-compare -Wstring-conversion -Wtype-limits -Wuninitialized -Wunused -Wvla -Wno-unused-function -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C2235AF6DAC74AF5BF7CE03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CE7C95C574FD4621B1350690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D414C5252A654DE5AD84DB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		DD7F7C45C9364EF9AD3FC8B5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DE7BA4F9EF56485C9B431663 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wdisabled-optimization -Wextra -Wfloat-conversion -Wimplicit-function-declaration -Wpointer-arith -Wsign-compare -Wstring-conversion -Wtype-limits -Wuninitialized -Wunused -Wvla -Wno-unused-function -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F1796AAE6A314B9CB17898C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/src,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest/include,/Users/edward.shi/project/AOM/aom/third_party/googletest/src/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wdisabled-optimization -Wextra -Wfloat-conversion -Wimplicit-function-declaration -Wpointer-arith -Wsign-compare -Wstring-conversion -Wtype-limits -Wuninitialized -Wunused -Wvla -Wno-unused-function -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/edward.shi/project/AOM/aom/build_xcode/third_party/googletest/src/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B3C183D70DD46CFBDD3CBC1 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F3A0371F8B4133B66D2E9C /* Debug */,
+				BDF353A123CD423C99519DD7 /* Release */,
+				96447B665B4240E7A178B7DE /* MinSizeRel */,
+				332CCC47D36A4D9FADEE3165 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		864F5ABF2E7D45479DA30F4D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D414C5252A654DE5AD84DB88 /* Debug */,
+				190B8348B1AE4146A42262B7 /* Release */,
+				AEE90797B77D464C97DBA468 /* MinSizeRel */,
+				6B87D791EE6E4108A91D05D4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B777779C1ED4D9BB55AA91E /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBC935FC7534A0BAAA26B0A /* Debug */,
+				F1796AAE6A314B9CB17898C9 /* Release */,
+				DE7BA4F9EF56485C9B431663 /* MinSizeRel */,
+				91F35288C5314A01A97C80D2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A8D4BB076A98428F941D19FB /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2235AF6DAC74AF5BF7CE03B /* Debug */,
+				CE7C95C574FD4621B1350690 /* Release */,
+				DD7F7C45C9364EF9AD3FC8B5 /* MinSizeRel */,
+				166A0ED50D4C4B63973824A9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C97AB10F32704AA9A7695F29 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB76AA68A984DDD846EA8B5 /* Debug */,
+				A25AC1DC0B394D5E80ED00B4 /* Release */,
+				0C26AB6A6AB848C795C0E8C0 /* MinSizeRel */,
+				A144478811D5412FB54C517C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE772F90239C4C90BFB0A777 /* Build configuration list for PBXProject "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F224AC79FE47E3A3A1AD8A /* Debug */,
+				3952FACDF0F14F899DAB9303 /* Release */,
+				B2E2D0DFC4DE46208603C850 /* MinSizeRel */,
+				49068520975A4CED88B7BB62 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD64F472693E4FB385B2B11F /* Project object */;
+}

@@ -1,0 +1,10 @@
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_sse2_intrinsics.build/Objects-normal/x86_64/avg_intrin_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_sse2_intrinsics.build/Objects-normal/x86_64/fwd_dct32_8cols_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_sse2_intrinsics.build/Objects-normal/x86_64/fwd_txfm_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_sse2_intrinsics.build/Objects-normal/x86_64/halfpix_variance_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_sse2_intrinsics.build/Objects-normal/x86_64/highbd_quantize_intrin_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_sse2_intrinsics.build/Objects-normal/x86_64/highbd_subtract_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_sse2_intrinsics.build/Objects-normal/x86_64/highbd_variance_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_sse2_intrinsics.build/Objects-normal/x86_64/quantize_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_sse2_intrinsics.build/Objects-normal/x86_64/sum_squares_sse2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_sse2_intrinsics.build/Objects-normal/x86_64/variance_sse2.o

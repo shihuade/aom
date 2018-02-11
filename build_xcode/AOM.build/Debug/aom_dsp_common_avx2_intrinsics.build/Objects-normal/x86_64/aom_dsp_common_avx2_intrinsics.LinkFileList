@@ -1,0 +1,8 @@
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_avx2_intrinsics.build/Objects-normal/x86_64/aom_convolve_hip_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_avx2_intrinsics.build/Objects-normal/x86_64/aom_highbd_convolve_hip_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_avx2_intrinsics.build/Objects-normal/x86_64/aom_subpixel_8t_intrin_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_avx2_intrinsics.build/Objects-normal/x86_64/highbd_convolve_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_avx2_intrinsics.build/Objects-normal/x86_64/highbd_intrapred_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_avx2_intrinsics.build/Objects-normal/x86_64/highbd_loopfilter_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_avx2_intrinsics.build/Objects-normal/x86_64/intrapred_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_common_avx2_intrinsics.build/Objects-normal/x86_64/inv_txfm_avx2.o

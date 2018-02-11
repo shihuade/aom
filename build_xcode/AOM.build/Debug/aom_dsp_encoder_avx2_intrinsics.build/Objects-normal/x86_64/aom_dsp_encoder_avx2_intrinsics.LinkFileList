@@ -1,0 +1,8 @@
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_avx2_intrinsics.build/Objects-normal/x86_64/fwd_txfm_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_avx2_intrinsics.build/Objects-normal/x86_64/highbd_quantize_intrin_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_avx2_intrinsics.build/Objects-normal/x86_64/sad4d_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_avx2_intrinsics.build/Objects-normal/x86_64/sad_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_avx2_intrinsics.build/Objects-normal/x86_64/sad_highbd_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_avx2_intrinsics.build/Objects-normal/x86_64/sad_impl_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_avx2_intrinsics.build/Objects-normal/x86_64/variance_avx2.o
+/Users/edward.shi/project/AOM/aom/build_xcode/AOM.build/Debug/aom_dsp_encoder_avx2_intrinsics.build/Objects-normal/x86_64/variance_impl_avx2.o
